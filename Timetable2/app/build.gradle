@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        Release {
+            keyAlias 'Allforme3'
+            keyPassword 'broadband3'
+            storeFile file('C:/Users/allforme3/Timetable.jks')
+            storePassword 'broadband3'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.timetable.allforme3.timetable"
+        minSdkVersion 17
+        targetSdkVersion 21
+        versionCode 1
+        versionName '1.2'
+        signingConfig signingConfigs.Release
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}

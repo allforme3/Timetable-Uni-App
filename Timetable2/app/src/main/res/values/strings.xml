@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timetable</string>
+    <string name="title_section1">Monday</string>
+    <string name="title_section2">Tuesday</string>
+    <string name="title_section3">Wednesday</string>
+    <string name="title_section4">Thursday</string>
+    <string name="title_section5">Friday</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Oh God</string>
+    <string name="action_settings">Settings</string>
+    <string name="Text2">Introduction To Programming</string>
+    <string name="text3">Glenn Jenkins</string>
+    <string name="text1">09:00 - 12:00</string>
+    <string name="text4">MH305</string>
+    <string name="text5">12:00 - 14:00</string>
+    <string name="text6">Information Engineering</string>
+    <string name="text7">David Williams</string>
+    <string name="text8">MH304/5</string>
+    <string name="text9">16:00 - 18:00</string>
+    <string name="text11">Alfie Wicks</string>
+    <string name="text12">MH305</string>
+    <string name="text21">13:00 - 14:00</string>
+    <string name="text22">Computer Architecture</string>
+    <string name="text23">Gareth Jones</string>
+    <string name="text24">MH503</string>
+    <string name="text25">15:00 - 16:00</string>
+    <string name="text26">MH306</string>
+    <string name="about">About</string>
+</resources>
